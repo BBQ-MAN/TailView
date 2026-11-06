@@ -1,0 +1,19 @@
+# Build output and local preview material
+**/target/
+app/shots/
+checks/
+capture/
+graft/
+inbox/
+pinned/
+reference/
+investigation.cany/
+craft.json
+feed.json
+usage.json
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

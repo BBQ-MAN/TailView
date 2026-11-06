@@ -1,0 +1,19 @@
+[package]
+name = "tailview"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.36"
+image = { version = "0.25", default-features = false, features = ["rayon", "jpeg", "png", "gif", "webp", "bmp", "tiff", "tga", "ico", "hdr", "exr", "pnm", "qoi", "dds"] }
+rayon = "1"
+rfd = "0.16"
+zip = { version = "2", default-features = false, features = ["deflate"] }
+psd = "0.3"
+rusqlite = { version = "0.32", features = ["bundled"] }
+
+[profile.release]
+opt-level = 3
+
+[profile.dev.package."*"]
+opt-level = 2

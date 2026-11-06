@@ -1,0 +1,236 @@
+{
+ "version": 1,
+ "values": [
+  {
+   "name": "zoom 100% units",
+   "group": "zoom",
+   "value": 10000,
+   "source": "function 0x1400f9950"
+  },
+  {
+   "name": "zoom min",
+   "group": "zoom",
+   "value": 500,
+   "unit": "units (5%)",
+   "source": "function 0x14013bcc0"
+  },
+  {
+   "name": "zoom min (1% steps)",
+   "group": "zoom",
+   "value": 100,
+   "unit": "units (1%)",
+   "source": "function 0x14013bcc0"
+  },
+  {
+   "name": "zoom max",
+   "group": "zoom",
+   "value": 2000000,
+   "unit": "units (20000%)",
+   "source": "function 0x14013bcc0"
+  },
+  {
+   "name": "zoom step",
+   "group": "zoom",
+   "value": 10,
+   "unit": "%",
+   "source": "function 0x1400f9950"
+  },
+  {
+   "name": "zoom fine step",
+   "group": "zoom",
+   "value": 1,
+   "unit": "%",
+   "source": "function 0x1400f9950"
+  },
+  {
+   "name": "zoom increment below 300%",
+   "group": "zoom",
+   "value": 1000,
+   "unit": "units",
+   "source": "function 0x14013bcc0"
+  },
+  {
+   "name": "zoom increment 300-500%",
+   "group": "zoom",
+   "value": 2000,
+   "unit": "units",
+   "source": "function 0x14013bcc0"
+  },
+  {
+   "name": "zoom increment above 500%",
+   "group": "zoom",
+   "value": 5000,
+   "unit": "units",
+   "source": "function 0x14013bcc0"
+  },
+  {
+   "name": "zoom threshold low",
+   "group": "zoom",
+   "value": 30000,
+   "unit": "units",
+   "source": "function 0x14013bcc0"
+  },
+  {
+   "name": "zoom threshold high",
+   "group": "zoom",
+   "value": 50000,
+   "unit": "units",
+   "source": "function 0x14013bcc0"
+  },
+  {
+   "name": "webtoon preset 1",
+   "group": "webtoon",
+   "value": 690,
+   "unit": "px",
+   "source": "data 0x1405ff4c0"
+  },
+  {
+   "name": "webtoon preset 2",
+   "group": "webtoon",
+   "value": 760,
+   "unit": "px",
+   "source": "data 0x1405ff4c0"
+  },
+  {
+   "name": "webtoon preset 3",
+   "group": "webtoon",
+   "value": 800,
+   "unit": "px",
+   "source": "data 0x1405ff4c0"
+  },
+  {
+   "name": "webtoon apply width default",
+   "group": "webtoon",
+   "value": false,
+   "source": "function 0x1400796e0"
+  },
+  {
+   "name": "webtoon spacing",
+   "group": "webtoon",
+   "value": 10,
+   "unit": "px",
+   "source": "function 0x14007a090"
+  },
+  {
+   "name": "webtoon long scroll",
+   "group": "webtoon",
+   "value": 0.9,
+   "unit": "window heights",
+   "estimated": true
+  },
+  {
+   "name": "arrow scroll",
+   "group": "webtoon",
+   "value": 0.15,
+   "unit": "window heights",
+   "estimated": true
+  },
+  {
+   "name": "slideshow slots",
+   "group": "slideshow",
+   "value": 9,
+   "source": "function 0x14010d330"
+  },
+  {
+   "name": "slideshow timer tick",
+   "group": "slideshow",
+   "value": 50,
+   "unit": "ms",
+   "source": "function 0x14010df90"
+  },
+  {
+   "name": "slideshow slot n interval",
+   "group": "slideshow",
+   "value": "n seconds (1000..9000 ms)",
+   "source": "function 0x14007a090"
+  },
+  {
+   "name": "popup ads",
+   "group": "ads",
+   "value": false,
+   "source": "removed; original at function 0x140067690"
+  },
+  {
+   "name": "gamma compensation",
+   "group": "effects",
+   "value": 0.45,
+   "unit": "exponent (gamma1000 = 450)",
+   "source": "function 0x1400796e0"
+  },
+  {
+   "name": "batch convert threads",
+   "group": "convert",
+   "value": "all CPU cores",
+   "estimated": true
+  },
+  {
+   "name": "webtoon width default",
+   "group": "webtoon",
+   "value": 690,
+   "unit": "px",
+   "source": "function 0x1400796e0"
+  },
+  {
+   "name": "webtoon spacing on by default",
+   "group": "webtoon",
+   "value": false,
+   "source": "function 0x14007a090"
+  },
+  {
+   "name": "background colour",
+   "group": "look",
+   "value": "#202020",
+   "source": "function 0x14007a090"
+  },
+  {
+   "name": "window width",
+   "group": "look",
+   "value": 1000,
+   "unit": "px at 96 dpi",
+   "source": "function 0x14007a090"
+  },
+  {
+   "name": "window height",
+   "group": "look",
+   "value": 800,
+   "unit": "px at 96 dpi",
+   "source": "function 0x14007a090"
+  },
+  {
+   "name": "slideshow loop",
+   "group": "slideshow",
+   "value": true,
+   "source": "function 0x14007a090"
+  },
+  {
+   "name": "slideshow random",
+   "group": "slideshow",
+   "value": false,
+   "source": "function 0x14007a090"
+  },
+  {
+   "name": "slideshow progress bar",
+   "group": "slideshow",
+   "value": false,
+   "source": "function 0x14007a090"
+  },
+  {
+   "name": "title format",
+   "group": "look",
+   "value": "${folder} ${sep} ${file} [${page}/${total}]",
+   "source": "function 0x14007a090"
+  },
+  {
+   "name": "webtoon page width when width is off",
+   "group": "webtoon",
+   "value": "own width, shrunk to window",
+   "estimated": true
+  },
+  {
+   "name": "wheel without Ctrl",
+   "group": "controls",
+   "value": "next/previous image",
+   "estimated": true
+  }
+ ]
+}
