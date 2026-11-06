@@ -8,6 +8,13 @@ Rust와 egui로 만든 광고 없는 이미지·만화·웹툰 뷰어입니다.
 Windows와 macOS용 코드로 구성되어 있습니다. 여우 꼬리를 V자로 형상화한 아이콘과
 폭스 오렌지(`#F47A32`) 포인트 컬러를 사용합니다.
 
+## 다운로드
+
+[GitHub Releases](https://github.com/BBQ-MAN/TailView/releases)에서 Windows x64 ZIP을 받아
+압축을 푼 뒤 `tailview.exe`를 실행하세요. Windows 렌더러는 DirectX 12를 사용합니다.
+[Microsoft Visual C++ x64 런타임](https://aka.ms/vc14/vc_redist.x64.exe)이 필요합니다.
+릴리즈의 `SHA256SUMS.txt`로 다운로드 파일을 검증할 수 있습니다.
+
 ## 주요 기능
 
 - 이미지·폴더·ZIP/CBZ 열기, 파일 끌어다 놓기, 자연 정렬

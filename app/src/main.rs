@@ -281,6 +281,15 @@ fn main() -> eframe::Result {
             .with_inner_size([1000.0, 800.0]) // FUN_14007a090: 1000x800 at 96 dpi
             .with_min_inner_size([480.0, 320.0])
             .with_drag_and_drop(true),
+        #[cfg(target_os = "windows")]
+        wgpu_options: {
+            let mut config = eframe::WgpuConfiguration::default();
+            if let eframe::egui_wgpu::WgpuSetup::CreateNew(setup) = &mut config.wgpu_setup {
+                // Avoid AMD OpenGL driver crashes during adapter enumeration.
+                setup.instance_descriptor.backends = eframe::wgpu::Backends::DX12;
+            }
+            config
+        },
         ..Default::default()
     };
     eframe::run_native(
